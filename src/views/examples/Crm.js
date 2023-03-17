@@ -29,7 +29,6 @@ import {
   chartExample2
 } from "variables/charts.js";
 
-import Header from "components/Headers/Header.js";
 import CrmHeader from "components/Headers/CrmHeader.js";
 
 const Index = (props) => {

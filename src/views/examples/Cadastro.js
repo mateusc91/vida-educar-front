@@ -14,9 +14,7 @@ import {
     Progress,
     Table,
     Container,
-    Row,
-    UncontrolledTooltip
-  } from "reactstrap";
+    Row  } from "reactstrap";
   // core components
   import Header from "components/Headers/Header.js";
   
