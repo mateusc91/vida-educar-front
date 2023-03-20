@@ -21,10 +21,10 @@ jobs:
         with:
           node-version: '18.x'
 
-      - name: npm install
+      - name: npm install and build
         run: |
           npm install
-          npm run build
+          CI=false npm run build
 
       - name: Zip artifact for deployment
         run: Compress-Archive . release.zip
